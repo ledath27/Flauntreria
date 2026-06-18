@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Flaunteria✨</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+    footer {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar a {
+    text-decoration: none;
+    color: #B331F1;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #FF62BB;
+}
+/* RESET */
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(180deg,#FBF5A7,#ffe6f2);
+}
+
+/* TYPOGRAPHY */
+h1,h2{
+font-family:'Playfair Display',serif;
+}
+
+/* NAVBAR */
+.site-header{
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:20px 5%;
+max-width:1200px;
+margin:auto;
+}
+
+.logo-text{
+color:#B331F1;
+font-size:22px;
+font-weight:bold;
+text-decoration:none;
+}
+
+.nav-links{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#B331F1;
+font-weight:bold;
+}
+
+.nav-links a:hover{
+color:#FF62BB;
+}
+
+/* CARD */
+.card{
+max-width:700px;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* INPUTS */
+input,textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:10px;
+border:1px solid #ddd;
+font-family:'Poppins',sans-serif;
+}
+
+/* BUTTON */
+button{
+background:#B331F1;
+color:white;
+border:none;
+padding:12px 25px;
+border-radius:10px;
+cursor:pointer;
+font-weight:bold;
+transition:0.3s;
+}
+
+button:hover{
+background:#FF62BB;
+transform:scale(1.05);
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:30px;
+color:#666;
+}
+
+/* RESPONSIVE */
+@media (max-width:768px){
+
+.navbar{
+flex-direction:column;
+align-items:center;
+gap:10px;
+}
+
+.nav-links{
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+}
+
+.card{
+margin:20px;
+padding:20px;
+}
+
+}
+
+@media (max-width:480px){
+
+.nav-links{
+flex-direction:column;
+align-items:center;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="site-header">
+<nav class="navbar">
+
+<a class="logo-text" href="index.html">Flaunteria✨</a>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="skincare.html">Skincare</a></li>
+<li><a href="haircare.html">Haircare</a></li>
+<li><a href="Budgetglow.html">Flaunt on a Budget</a></li>
+<li><a href="./reviews.html">Product Reviews</a></li>
+</ul>
+
+</nav>
+</header>
+
+<!-- CONTACT -->
+<section class="card">
+
+<h1 style="text-align:center; color:#B331F1;">
+Contact Us 💌
+</h1>
+
+<p style="text-align:center; margin-top:10px;">
+We’d love to hear from you ✨
+</p>
+
+<form action="https://formspree.io/f/mvznygdo" method="POST">
+
+<!-- EMAIL -->
+<input
+type="email"
+name="email"
+placeholder="Your email"
+required>
+
+<!-- MESSAGE -->
+<textarea
+name="message"
+rows="5"
+placeholder="Your message..."
+required></textarea>
+
+<div style="text-align:center; margin-top:15px;">
+<button type="submit">Send Message ✨</button>
+</div>
+
+</form>
+
+</section>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+<footer>
+
+<div class="footer-links">
+    <a href="about.html" style="color:#B331F1;">About Us</a>
+    <a href="contact.html" style="color:#FF62BB;">Contact Us</a>
+    <a href="collab.html" style="color:#B331F1;">Collaborate With Us</a>
+    <a href="./subscribe.html" style="color:#FF62BB">Subscribe to our Newsletter</a>
+</div>
+
+<p style="margin-top:10px;">© 2026 Flaunteria✨</p>
+
+</footer>
+
+
+</html>

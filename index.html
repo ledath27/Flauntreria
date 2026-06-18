@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>http://127.0.0.1:3000/index.html?vscode-livepreview=true✨</title>
+
+<link href="Flaunteria✨" rel="stylesheet">
+
+<style>
+.side-decor {
+    position: fixed;
+    top: 0;
+    width: 60px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.side-decor.left {
+    left: 0;
+}
+
+.side-decor.right {
+    right: 0;
+}
+
+
+.lip {
+    font-size: 22px;
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+}
+
+
+.lip:nth-child(2) { animation-delay: 0.5s; }
+.lip:nth-child(3) { animation-delay: 1s; }
+.lip:nth-child(4) { animation-delay: 1.5s; }
+.lip:nth-child(5) { animation-delay: 2s; }
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #FBF5A7, #ffe6f2);
+}
+
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+
+.site-header {
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo-text {
+    color: #B331F1;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #B331F1;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #FF62BB;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #B331F1;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #FF62BB;
+}
+/* CARD SYSTEM */
+.card {
+    max-width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+}
+
+/* BUTTON */
+button {
+    background: white;
+    color: #B331F1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: #ffe6f2;
+    color: #FF62BB;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+
+.navbar{
+flex-direction:column;
+align-items:flex-start;
+gap:10px;
+}
+
+nav{
+display:flex;
+flex-direction:column;
+gap:8px;
+}
+
+.hero h1{
+font-size:32px;
+text-align:center;
+}
+
+.section{
+margin:20px 15px;
+padding:20px;
+}
+
+.product{
+font-size:14px;
+}
+
+}
+
+@media (max-width: 480px) {
+
+.hero h1{
+font-size:26px;
+}
+
+.hero p{
+font-size:14px;
+}
+
+.section{
+padding:15px;
+border-radius:15px;
+}
+
+label{
+font-size:14px;
+}
+
+}
+</style>
+</head>
+
+<body>
+<div class="side-decor left">
+    <span class="lip">💄</span>
+    <span class="lip">💋</span>
+    <span class="lip">💄</span>
+    <span class="lip">💋</span>
+    <span class="lip">💄</span>
+</div>
+
+<div class="side-decor right">
+    <span class="lip">💋</span>
+    <span class="lip">💄</span>
+    <span class="lip">💋</span>
+    <span class="lip">💄</span>
+    <span class="lip">💋</span>
+</div>
+<!-- HEADER -->
+<header class="site-header">
+<nav class="navbar">
+    <a href="./index.html" class="logo-text">Flaunteria✨</a>
+
+    <ul class="nav-links">
+        <li><a href="./skincare.html">Skincare</a></li>
+        <li><a href="./haircare.html">Haircare</a></li>
+        <li><a href="./Budgetglow.html">Flaunt on a Budget</a></li>
+        <li><a href="./reviews.html">Product Reviews</a></li>
+    </ul>
+</nav>
+</header>
+
+<!-- HERO -->
+<section class="card hero">
+    <h1>Discover Your Best Glow ✨</h1>
+    <p>Your guide to skincare, haircare and beauty tips.</p>
+</section>
+
+<!-- WELCOME -->
+<section class="card">
+    <p>
+        Welcome to Flaunteria✨, your ultimate destination for beauty and self-care
+    </p>
+</section>
+
+<!-- REVIEW FORM -->
+<section class="card" style="background: linear-gradient(135deg,#FF62BB,#B331F1); color:white;">
+
+<h2 style="text-align:center;">Leave a Review ✨</h2>
+
+<form action="https://formspree.io/f/mvznygdo" method="POST">
+
+<input type="text" name="name" placeholder="Your Name"
+style="width:100%; padding:10px; margin:10px 0; border-radius:8px; border:none;">
+
+<textarea name="review" placeholder="Your Review"
+style="width:100%; padding:10px; border-radius:8px; border:none; height:120px;"></textarea>
+
+
+
+<div style="text-align:center;">
+<button type="submit">Submit Review 💖</button>
+</div>
+
+</form>
+
+<p style="font-size:13px; text-align:center; margin-top:10px;">
+Please keep reviews respectful.
+</p>
+
+</section>
+
+<!-- REVIEWS (INSTAGRAM STYLE) -->
+<section class="card">
+
+<h2 style="text-align:center; color:#B331F1; margin-bottom:20px;">
+    What people say 💖
+</h2>
+
+<!-- Review 1 -->
+<div style="background:#fff; border-radius:15px; padding:15px; margin-bottom:15px; box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+
+    <div style="display:flex; align-items:center; margin-bottom:10px;">
+        <div style="width:35px; height:35px; border-radius:50%; background:#FF62BB; color:white;
+                    display:flex; align-items:center; justify-content:center; font-weight:bold;">
+            A
+        </div>
+        <div style="margin-left:10px;">
+            <strong>Alexandra</strong><br>
+            <span style="font-size:12px; color:gray;">1 day ago</span>
+        </div>
+    </div>
+
+    <p style="margin:0;">
+        Me and my teenage daughter love Flaunteria!It helps us discover new products and organise our routines!
+    </p>
+</div>
+
+<!-- Review 2 -->
+<div style="background:#fff; border-radius:15px; padding:15px; margin-bottom:15px; box-shadow:0 2px 8px rgba(0,0,0,0.05);;">
+
+    <div style="display:flex; align-items:center; margin-bottom:10px;">
+        <div style="width:35px; height:35px; border-radius:50%; background:#B331F1; color:white;
+                    display:flex; align-items:center; justify-content:center; font-weight:bold;">
+            M
+        </div>
+        <div style="margin-left:10px;">
+            <strong>Martha</strong><br>
+            <span style="font-size:12px; color:gray;">1 day ago</span>
+        </div>
+    </div>
+
+    <p style="margin:0;">
+        Flaunteria has helped me really orginise my skincare and haircare routine!Thank you Flaunteria!!!
+    </p>
+</div>
+
+</section>
+<body>
+
+<!-- navbar -->
+<header>...</header>
+
+<!-- content -->
+<section>...</section>
+
+
+
+
+</body>
+<!-- FOOTER -->
+<footer>
+
+<div class="footer-links">
+    <a href="about.html" style="color:#B331F1;">About Us</a>
+    <a href="contact.html" style="color:#FF62BB;">Contact Us</a>
+    <a href="collab.html" style="color:#B331F1;">Collaborate With Us</a>
+    <a href="./subscribe.html" style="color:#FF62BB">Subscribe to our Newsletter</a>
+</div>
+
+<p style="margin-top:10px;">© 2026 Flaunteria✨</p>
+
+</footer>
+
+</body>
+</html>

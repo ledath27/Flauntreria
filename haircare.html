@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haircare | Flaunteria✨</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+    footer {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar a {
+    text-decoration: none;
+    color: #B331F1;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #FF62BB;
+}
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(180deg,#FBF5A7,#ffe6f2);
+color:#333;
+}
+
+/* NAVBAR */
+.site-header{
+background:white;
+position:sticky;
+top:0;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+z-index:1000;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:20px 5%;
+max-width:1200px;
+margin:auto;
+}
+
+.logo-text{
+color:#B331F1;
+font-weight:bold;
+text-decoration:none;
+font-size:22px;
+}
+
+.nav-links{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#B331F1;
+font-weight:bold;
+}
+
+.nav-links a:hover{
+color:#FF62BB;
+}
+
+/* HERO */
+.hero{
+text-align:center;
+padding:80px 20px 50px;
+}
+
+.hero h1{
+font-family:'Playfair Display',serif;
+font-size:40px;
+color:#B331F1;
+}
+
+.hero p{
+margin-top:10px;
+font-size:16px;
+}
+
+/* SECTIONS */
+.section{
+max-width:800px;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.section h2{
+font-family:'Playfair Display',serif;
+color:#B331F1;
+margin-bottom:15px;
+}
+
+.section p{
+line-height:1.7;
+margin-bottom:10px;
+}
+
+/* BEAUTY TIP BOX */
+.tip{
+background:linear-gradient(135deg,#FF62BB,#B331F1);
+color:white;
+padding:15px;
+border-radius:15px;
+margin:10px 0;
+}
+
+/* CHECKBOX STYLE */
+label{
+display:block;
+margin:12px 0;
+font-size:15px;
+cursor:pointer;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#666;
+}
+@media (max-width: 768px) {
+
+.navbar{
+flex-direction:column;
+align-items:flex-start;
+gap:10px;
+}
+
+nav{
+display:flex;
+flex-direction:column;
+gap:8px;
+}
+
+.hero h1{
+font-size:32px;
+text-align:center;
+}
+
+.section{
+margin:20px 15px;
+padding:20px;
+}
+
+.product{
+font-size:14px;
+}
+
+}
+
+@media (max-width: 480px) {
+
+.hero h1{
+font-size:26px;
+}
+
+.hero p{
+font-size:14px;
+}
+
+.section{
+padding:15px;
+border-radius:15px;
+}
+
+label{
+font-size:14px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<header class="site-header">
+<nav class="navbar">
+
+<a class="logo-text" href="index.html">Flaunteria✨</a>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="skincare.html">Skincare</a></li>
+<li><a href="haircare.html">Haircare</a></li>
+<li><a href="Budgetglow.html">Flaunt on a Budget</a></li>
+<li><a href="./reviews.html">Product Reviews</a></li>
+</ul>
+
+</nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+<h1>Haircare Routine 💇‍♀️✨</h1>
+<p>From root to tip — simple steps for healthy, shiny hair</p>
+</section>
+
+<!-- BASICS -->
+<section class="section">
+<h2>💖 The Basics</h2>
+<p>Healthy hair starts with consistency, not expensive products.</p>
+<p>Focus on hydration, gentle washing, and protection from heat.</p>
+</section>
+
+<!-- ROUTINE -->
+<section class="section">
+<h2>🧴 Wash Routine</h2>
+<p>• Shampoo only on scalp</p>
+<p>• Conditioner only on ends</p>
+<p>• Don’t wash every day</p>
+</section>
+
+<!-- MISTAKES -->
+<section class="section">
+<h2>✨ Common Mistakes</h2>
+
+<div class="tip">❌ Too much heat without protection</div>
+<div class="tip">❌ Oil on roots</div>
+<div class="tip">❌ Overwashing hair</div>
+
+</section>
+
+<!-- TIPS -->
+<section class="section">
+<h2>🌸 Glow Tips</h2>
+
+<div class="tip">✨ Use the two-coin method</div>
+<div class="tip">✨ Use a silk pillowcase or a bonett to reduce frizz</div>
+<div class="tip">✨ Hair mask twice a week</div>
+
+</section>
+
+<!-- CHECKLIST (WHITE BOX) -->
+<section class="section">
+
+<h2>💖 Haircare Checklist</h2>
+
+<label><input type="checkbox"> I wash my hair 2–3 times per week only on the ends</label>
+<label><input type="checkbox"> I use conditioner in every wash</label>
+<label><input type="checkbox"> I use heat protection before styling</label>
+<label><input type="checkbox"> I check hair products before buying them</label>
+<label><input type="checkbox"> I protect my hair while sleeping with a bonett or a silk pillowcase</label>
+
+</section>
+
+<!-- CONFETTI -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<script>
+document.querySelectorAll('input[type="checkbox"]').forEach(box => {
+box.addEventListener('change', function () {
+if (this.checked) {
+confetti({
+particleCount: 80,
+spread: 80,
+origin: { y: 0.6 }
+});
+}
+});
+});
+</script>
+
+</body>
+<footer>
+
+<div class="footer-links">
+    <a href="about.html" style="color:#B331F1;">About Us</a>
+    <a href="contact.html" style="color:#FF62BB;">Contact Us</a>
+    <a href="collab.html" style="color:#B331F1;">Collaborate With Us</a>
+    <a href="./subscribe.html" style="color:#FF62BB">Subscribe to our Newsletter</a>
+</div>
+
+<p style="margin-top:10px;">© 2026 Flaunteria✨</p>
+
+</footer>
+</html>
